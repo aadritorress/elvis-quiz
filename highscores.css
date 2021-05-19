@@ -1,0 +1,48 @@
+
+body { 
+    background: url("https://wallpapersplanet.net/sites/default/files/elvis-presley-wallpapers-37264-9823984.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 130rem;
+    margin: 30 auto;
+    padding: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-start {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.justify-flex-start {
+    justify-content: flex-start;
+}
+
+.text-flex-start {
+    text-align: flex-start;
+}
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.high-score {
+    font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+}
